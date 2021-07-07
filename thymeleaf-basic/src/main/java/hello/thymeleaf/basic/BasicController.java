@@ -29,7 +29,7 @@ public class BasicController {
     @GetMapping("/variable")
     public String variable(Model model){
         User userA = new User("userA",10);
-        User userB = new User("userB",10);
+        User userB = new User("userB",20);
 
         List<User> list = new ArrayList<>();
         list.add(userA);
